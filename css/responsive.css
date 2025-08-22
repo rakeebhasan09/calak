@@ -2,12 +2,30 @@
 Extra Large Screen - Others
 ===============================*/
 @media screen and (min-width: 1200px) and (max-width: 1399px) {
+	.usefull-links {
+		padding-left: 40px;
+	}
+	.contacts {
+		padding-left: 25px;
+	}
 }
 
 /*========================
 Large Screen - Leptop
 ==========================*/
 @media screen and (min-width: 992px) and (max-width: 1199px) {
+	.footer-wrpper .row {
+		row-gap: 50px;
+	}
+	.usefull-links {
+		padding-left: 50px;
+	}
+	.contacts {
+		padding-left: 20px;
+	}
+	.footer-links > h2 {
+		margin-bottom: 20px;
+	}
 }
 
 /*=========================
@@ -27,6 +45,24 @@ Medium Screen - Tablate
 
 	.header-area {
 		padding: 20px 0;
+	}
+
+	.footer-wrpper .row {
+		row-gap: 50px;
+	}
+	.usefull-links {
+		padding-left: 0px;
+		border: none;
+	}
+	.contacts {
+		padding-left: 0px;
+	}
+	.footer-links > h2 {
+		margin-bottom: 20px;
+	}
+	.follow-us ul {
+		flex-wrap: wrap;
+		justify-content: start !important;
 	}
 }
 
@@ -59,5 +95,26 @@ Xtra Small Screen - Small Mobile
 		width: 38px;
 		height: 4px;
 		margin: 6px auto;
+	}
+
+	.footer-wrpper .row {
+		row-gap: 50px;
+	}
+	.usefull-links {
+		padding-left: 0px;
+		border: none;
+	}
+	.contacts {
+		padding-left: 0px;
+	}
+	.footer-links > h2 {
+		margin-bottom: 20px;
+	}
+	.follow-us ul {
+		flex-wrap: wrap;
+		justify-content: start !important;
+	}
+	.footer-info p {
+		padding-right: 0;
 	}
 }
