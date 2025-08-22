@@ -2,38 +2,40 @@
 Extra Large Screen - Others
 ===============================*/
 @media screen and (min-width: 1200px) and (max-width: 1399px) {
-
-
-
-
 }
 
 /*========================
 Large Screen - Leptop
 ==========================*/
 @media screen and (min-width: 992px) and (max-width: 1199px) {
-
-
-
-
 }
 
 /*=========================
 Medium Screen - Tablate
 =========================*/
 @media screen and (min-width: 768px) and (max-width: 991px) {
-
-
-
-
+	.top-header-social-icons ul,
+	.top-header-contact-info ul {
+		justify-content: center !important;
+	}
+	.header-area .row {
+		row-gap: 20px;
+	}
 }
-
 
 /*===============================
 Xtra Small Screen - Small Mobile
 =================================*/
 @media screen and (max-width: 768px) {
-
-
-
+	.top-header-social-icons ul,
+	.top-header-contact-info ul {
+		justify-content: center !important;
+	}
+	.header-area .row {
+		row-gap: 20px;
+	}
+	.top-header-contact-info ul {
+		flex-wrap: wrap;
+		row-gap: 10px;
+	}
 }
