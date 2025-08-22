@@ -31,10 +31,9 @@
 		<link rel="stylesheet" href="css/responsive.css" />
 	</head>
 	<body>
-		<!-- HEADER HERO AREA START -->
-		<header class="header-area">
+		<!-- HEADER TOP AREA -->
+		<section class="top-header-area">
 			<div class="container">
-				<!-- HEADER TOP AREA -->
 				<div class="row align-items-center">
 					<div class="col-lg-5 col-xl-6">
 						<div class="top-header-social-icons">
@@ -70,8 +69,86 @@
 					</div>
 				</div>
 			</div>
+		</section>
+
+		<!-- HEADER HERO AREA START -->
+		<header class="header-area">
+			<div class="container">
+				<!-- NAVBAR AREA START -->
+				<nav class="desktop-navbar">
+					<div class="row align-items-center">
+						<div class="col-6 col-lg-4">
+							<div class="main-logo">
+								<a href="index.html">
+									<img src="images/calak-logo.png" alt="" />
+								</a>
+							</div>
+						</div>
+						<div class="col-6 col-lg-8">
+							<div class="desktop-menu-bar">
+								<ul class="d-none d-lg-flex align-items-center">
+									<li><a href="">why us</a></li>
+									<li><a href="">about</a></li>
+									<li><a href="">services</a></li>
+									<li><a href="">bids</a></li>
+									<li><a href="">process</a></li>
+									<li><a href="">contact us</a></li>
+								</ul>
+								<!-- Hamburger Icon -->
+								<div class="hamburger-icon d-lg-none">
+									<div
+										data-bs-toggle="offcanvas"
+										data-bs-target="#offcanvasRight"
+										aria-controls="offcanvasRight"
+										class="hamburger"
+										id="hamburger-1"
+									>
+										<span class="line"></span>
+										<span class="line"></span>
+										<span class="line"></span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</nav>
+				<!-- NAVBAR AREA END -->
+			</div>
 		</header>
 		<!-- HEADER HERO AREA END -->
+
+		<!-- Mobile Menu Side Bar Start -->
+		<aside
+			class="offcanvas offcanvas-end"
+			tabindex="-1"
+			id="offcanvasRight"
+			aria-labelledby="offcanvasRightLabel"
+		>
+			<div class="offcanvas-header">
+				<a href="index.html" id="offcanvasRightLabel">
+					<img src="images/calak-logo.png" alt="" />
+				</a>
+				<button
+					type="button"
+					class="btn-close text-reset"
+					data-bs-dismiss="offcanvas"
+					aria-label="Close"
+				></button>
+			</div>
+			<div class="offcanvas-body">
+				<div class="desktop-menu-bar">
+					<ul class="d-flex flex-column">
+						<li><a href="">why us</a></li>
+						<li><a href="">about</a></li>
+						<li><a href="">services</a></li>
+						<li><a href="">bids</a></li>
+						<li><a href="">process</a></li>
+						<li><a href="">contact us</a></li>
+					</ul>
+				</div>
+			</div>
+		</aside>
+		<!-- Mobile Menu Side Bar End -->
 
 		<!-- Main jQuery -->
 		<script src="js/jquery-3.4.1.min.js"></script>

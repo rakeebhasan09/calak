@@ -14,6 +14,9 @@ Large Screen - Leptop
 Medium Screen - Tablate
 =========================*/
 @media screen and (min-width: 768px) and (max-width: 991px) {
+	.top-header-area .row {
+		row-gap: 15px;
+	}
 	.top-header-social-icons ul,
 	.top-header-contact-info ul {
 		justify-content: center !important;
@@ -21,12 +24,19 @@ Medium Screen - Tablate
 	.header-area .row {
 		row-gap: 20px;
 	}
+
+	.header-area {
+		padding: 20px 0;
+	}
 }
 
 /*===============================
 Xtra Small Screen - Small Mobile
 =================================*/
 @media screen and (max-width: 768px) {
+	.top-header-area .row {
+		row-gap: 15px;
+	}
 	.top-header-social-icons ul,
 	.top-header-contact-info ul {
 		justify-content: center !important;
@@ -37,5 +47,17 @@ Xtra Small Screen - Small Mobile
 	.top-header-contact-info ul {
 		flex-wrap: wrap;
 		row-gap: 10px;
+	}
+
+	.header-area {
+		padding: 15px 0;
+	}
+	.main-logo a img {
+		width: 130px;
+	}
+	.hamburger .line {
+		width: 38px;
+		height: 4px;
+		margin: 6px auto;
 	}
 }
