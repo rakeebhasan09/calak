@@ -8,6 +8,16 @@ Extra Large Screen - Others
 	.contacts {
 		padding-left: 25px;
 	}
+
+	.hero-area {
+		padding: 104px 0;
+	}
+	.hero-content h1 {
+		font-size: 65px;
+	}
+	.hero-content p {
+		max-width: 620px;
+	}
 }
 
 /*========================
@@ -25,6 +35,16 @@ Large Screen - Leptop
 	}
 	.footer-links > h2 {
 		margin-bottom: 20px;
+	}
+
+	.hero-area {
+		padding: 104px 0;
+	}
+	.hero-content h1 {
+		font-size: 65px;
+	}
+	.hero-content p {
+		max-width: 620px;
 	}
 }
 
@@ -63,6 +83,23 @@ Medium Screen - Tablate
 	.follow-us ul {
 		flex-wrap: wrap;
 		justify-content: start !important;
+	}
+
+	.hero-area {
+		padding: 65px 0;
+	}
+	.hero-content h1 {
+		font-size: 50px;
+	}
+	.hero-content p {
+		max-width: 410px;
+	}
+	.dots {
+		bottom: 15px;
+	}
+	.dots ul li {
+		width: 10px;
+		height: 10px;
 	}
 }
 
@@ -116,5 +153,30 @@ Xtra Small Screen - Small Mobile
 	}
 	.footer-info p {
 		padding-right: 0;
+	}
+
+	.hero-area {
+		padding: 65px 0;
+		background-position: left;
+	}
+	.hero-content {
+		text-align: center;
+	}
+	.hero-content h1 {
+		font-size: 45px;
+	}
+	.hero-content p {
+		max-width: 410px;
+		margin: 20px auto;
+	}
+	.dots {
+		bottom: 15px;
+	}
+	.dots ul li {
+		width: 10px;
+		height: 10px;
+	}
+	.top-header-area {
+		display: none;
 	}
 }

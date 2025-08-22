@@ -356,3 +356,62 @@ FOOTER CSS HERE
 .follow-us ul li a {
 	color: #668e19;
 }
+
+/*======================
+HERO CSS HERE
+========================*/
+.hero-area {
+	background: url(images/hero-bg-img.png) no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 208px 0;
+	position: relative;
+}
+
+.hero-content h1 {
+	color: #fff;
+	font-size: 80px;
+}
+
+.hero-content p {
+	color: #fff;
+	font-size: 18px;
+	max-width: 700px;
+	margin: 20px 0;
+}
+
+.hero-content a {
+	text-transform: uppercase;
+	color: #000;
+	background: #ffbd1a;
+	padding: 10px 40px;
+	display: inline-block;
+	font-family: var(--Montserrat);
+	font-weight: 600;
+	border-radius: 5px;
+}
+
+.dots {
+	position: absolute;
+	bottom: 30px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.dots ul {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.dots ul li {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: #5b93ce;
+	cursor: pointer;
+}
+
+.dots ul li:first-child {
+	background-color: #ffffff;
+}
