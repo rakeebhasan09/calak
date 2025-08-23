@@ -381,7 +381,8 @@ HERO CSS HERE
 }
 
 .hero-content a,
-.about-desc a {
+.about-desc a,
+.input-form div button {
 	text-transform: uppercase;
 	color: #000;
 	background: #ffbd1a;
@@ -669,7 +670,7 @@ iPhones Page Style Here
 }
 
 .biders-info p {
-	color: #A49EC0;
+	color: #a49ec0;
 	font-size: 20px;
 	font-family: var(--Montserrat);
 }
@@ -713,4 +714,83 @@ iPhones Page Style Here
 
 .browse-store-area {
 	padding-bottom: 150px;
+}
+
+/*==========================
+Profile Update Page Style Here
+==========================*/
+.profile-update-form {
+	padding-top: 40px;
+	padding-bottom: 100px;
+}
+
+.profile-menu ul {
+	padding-right: 150px;
+	display: flex;
+	flex-direction: column;
+	row-gap: 20px;
+}
+
+.profile-menu ul li a {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid transparent;
+	transition: border-color 0.4s ease-in-out;
+}
+
+#active a,
+.profile-menu ul li a:hover {
+	border-color: #ffbd1a;
+}
+
+.profile-menu ul li a span {
+	color: #000;
+	font-size: 18px;
+	font-weight: 600;
+	font-family: var(--Montserrat);
+	text-transform: capitalize;
+}
+
+.input-form form {
+	background-color: #f4f4f4;
+	padding: 50px 200px 300px 100px;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	row-gap: 20px;
+}
+
+.input-row {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.input-row label {
+	font-family: var(--Montserrat);
+	text-transform: capitalize;
+	font-size: 18px;
+	font-weight: 600;
+	width: 70px;
+}
+
+.input-row input {
+	width: calc(100% - 60px);
+	padding: 8px 16px;
+	outline: none;
+	border: none;
+	border-radius: 8px;
+}
+
+.input-form > div {
+	padding-top: 20px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.input-form div button {
+	border: none;
+	text-transform: capitalize;
 }
