@@ -83,6 +83,10 @@ Large Screen - Leptop
 	.terms-conditions-wrpper {
 		padding: 50px;
 	}
+
+	.products-row {
+		row-gap: 30px;
+	}
 }
 
 /*=========================
@@ -201,6 +205,10 @@ Medium Screen - Tablate
 
 	.terms-conditions-wrpper {
 		padding: 50px;
+	}
+
+	.products-row {
+		row-gap: 30px;
 	}
 }
 
@@ -379,5 +387,36 @@ Xtra Small Screen - Small Mobile
 		border-radius: 10px;
 		padding: 20px;
 		text-align: justify;
+	}
+
+	.cart-products-desc {
+		border-top: none;
+		border-bottom: none;
+		flex-direction: column;
+		gap: 10px;
+	}
+	.order-confirm-box ul li span {
+		font-size: 15px;
+	}
+	.order-confirm-box ul li {
+		padding: 6px 0;
+	}
+	.order-confirm-box p {
+		padding-bottom: 20px;
+	}
+	.order-confirm-box button {
+		font-size: 19px;
+	}
+	.products-row {
+		padding-bottom: 70px;
+	}
+	.cart-products-desc img {
+		max-width: 200px;
+		display: block;
+		margin: auto;
+	}
+	.cart-products-desc h3 {
+		font-size: 22px;
+		text-align: center;
 	}
 }
