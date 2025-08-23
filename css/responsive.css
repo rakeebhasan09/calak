@@ -50,6 +50,11 @@ Large Screen - Leptop
 	.our-advantages-wrpper .row {
 		row-gap: 30px;
 	}
+
+	.our-services-area {
+		padding-top: 60px;
+		padding-bottom: 100px;
+	}
 }
 
 /*=========================
@@ -120,6 +125,17 @@ Medium Screen - Tablate
 	.our-advantages-wrpper .row {
 		margin-top: 30px;
 		row-gap: 30px;
+	}
+
+	.our-services-area {
+		padding-top: 50px;
+		padding-bottom: 70px;
+	}
+	.our-services-wrpper .row {
+		row-gap: 60px;
+	}
+	.service-icon {
+		top: -35%;
 	}
 }
 
@@ -220,5 +236,17 @@ Xtra Small Screen - Small Mobile
 	}
 	.section-title p {
 		margin-top: 5px;
+	}
+
+	.our-services-area {
+		padding-top: 30px;
+		padding-bottom: 50px;
+	}
+	.our-services-wrpper .row {
+		row-gap: 60px;
+		margin-top: 60px;
+	}
+	.service-icon {
+		top: -35%;
 	}
 }

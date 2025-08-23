@@ -558,3 +558,50 @@ OUR ADVANTAGES CSS HERE
 .bottom-border img {
 	width: 100%;
 }
+
+/*======================
+OUR SERVICES CSS HERE
+========================*/
+.our-services-area {
+	padding-top: 80px;
+	padding-bottom: 150px;
+}
+
+.our-services-wrpper .row {
+	margin-top: 80px;
+}
+
+.single-service-card {
+	padding: 50px 20px 30px;
+	background: rgba(229, 230, 230, 0.5);
+	border-radius: 10px;
+	position: relative;
+}
+
+.service-icon {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background-color: #f4b519;
+	position: absolute;
+	top: -32%;
+	left: 50%;
+	transform: translate(-50%, 50%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.service-icon img {
+	width: 40px;
+}
+
+.single-service-card a {
+	color: #8dc63f;
+	font-family: var(--Montserrat);
+	font-weight: 600;
+	display: inline-block;
+	margin-top: 20px;
+	font-size: 18px;
+	text-decoration: underline;
+}
