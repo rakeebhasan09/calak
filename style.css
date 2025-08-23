@@ -645,3 +645,54 @@ ABOUT US CSS HERE
 .about-desc div {
 	padding-top: 10px;
 }
+
+/*==========================
+iPhones Page Style Here
+==========================*/
+.bids-banner-area {
+	padding: 15px 0;
+	background-color: #31236f;
+	margin-top: 20px;
+}
+
+.bids-banner-wrpper {
+	display: flex;
+	align-items: center;
+	gap: 30px;
+}
+
+.biders-info h2 {
+	color: #fff;
+	font-size: 22px;
+	font-family: var(--Montserrat);
+	margin-bottom: 5px;
+}
+
+.biders-info p {
+	color: #fff;
+	font-size: 20px;
+	font-family: var(--Montserrat);
+}
+
+.bread-come-ara {
+	padding: 60px 0;
+}
+
+.bread-come-wrpper ul {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.bread-come-wrpper ul li {
+	font-family: var(--Montserrat);
+	font-weight: 600;
+}
+
+.all-iPhones-area {
+	padding-bottom: 150px;
+}
+
+.all-iPhones-wrpper .row {
+	row-gap: 50px;
+}

@@ -64,6 +64,11 @@ Large Screen - Leptop
 		padding-bottom: 80px;
 		margin-bottom: 80px;
 	}
+
+	/* iPhones Products Page */
+	.all-iPhones-area {
+		padding-bottom: 100px;
+	}
 }
 
 /*=========================
@@ -159,12 +164,20 @@ Medium Screen - Tablate
 		padding-bottom: 60px;
 		margin-bottom: 60px;
 	}
+
+	/* iPhones Products Page */
+	.all-iPhones-area {
+		padding-bottom: 100px;
+	}
+	.all-iPhones-wrpper .row {
+		row-gap: 30px;
+	}
 }
 
 /*===============================
 Xtra Small Screen - Small Mobile
 =================================*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 	.top-header-area .row {
 		row-gap: 15px;
 	}
@@ -283,5 +296,28 @@ Xtra Small Screen - Small Mobile
 		padding-top: 40px;
 		padding-bottom: 60px;
 		margin-bottom: 0;
+	}
+
+	/* iPhones Products Page */
+	.bids-banner-wrpper {
+		gap: 15px;
+	}
+	.all-iPhones-area {
+		padding-bottom: 45px;
+	}
+	.all-iPhones-wrpper .row {
+		row-gap: 20px;
+	}
+	.biders-info h2 {
+		font-size: 21px;
+	}
+	.biders-info p {
+		font-size: 17px;
+	}
+	.hamar-icon img {
+		width: 80px;
+	}
+	.bread-come-ara {
+		padding: 40px 0;
 	}
 }
