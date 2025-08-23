@@ -696,3 +696,21 @@ iPhones Page Style Here
 .all-iPhones-wrpper .row {
 	row-gap: 50px;
 }
+
+.browse-store-wrpper .single-home-featured-product .desc-box div h4 {
+	margin: 20px 0;
+	gap: 5px;
+}
+
+.browse-store-wrpper .row {
+	row-gap: 50px;
+}
+
+.browse-store-wrpper .single-home-featured-product .desc-box button {
+	padding-left: 80px;
+	padding-right: 80px;
+}
+
+.browse-store-area {
+	padding-bottom: 150px;
+}

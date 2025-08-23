@@ -69,6 +69,9 @@ Large Screen - Leptop
 	.all-iPhones-area {
 		padding-bottom: 100px;
 	}
+	.browse-store-wrpper .row {
+		row-gap: 30px;
+	}
 }
 
 /*=========================
@@ -166,10 +169,12 @@ Medium Screen - Tablate
 	}
 
 	/* iPhones Products Page */
-	.all-iPhones-area {
+	.all-iPhones-area,
+	.browse-store-area {
 		padding-bottom: 100px;
 	}
-	.all-iPhones-wrpper .row {
+	.all-iPhones-wrpper .row,
+	.browse-store-wrpper .row {
 		row-gap: 30px;
 	}
 }
@@ -302,10 +307,12 @@ Xtra Small Screen - Small Mobile
 	.bids-banner-wrpper {
 		gap: 15px;
 	}
-	.all-iPhones-area {
+	.all-iPhones-area,
+	.browse-store-area {
 		padding-bottom: 45px;
 	}
-	.all-iPhones-wrpper .row {
+	.all-iPhones-wrpper .row,
+	.browse-store-wrpper .row {
 		row-gap: 20px;
 	}
 	.biders-info h2 {
