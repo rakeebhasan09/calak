@@ -101,6 +101,13 @@ Medium Screen - Tablate
 		width: 10px;
 		height: 10px;
 	}
+
+	.featured-products-area {
+		padding: 35px 0;
+	}
+	.featured-products-wrpper .row {
+		row-gap: 30px;
+	}
 }
 
 /*===============================
@@ -178,5 +185,12 @@ Xtra Small Screen - Small Mobile
 	}
 	.top-header-area {
 		display: none;
+	}
+
+	.featured-products-area {
+		padding: 35px 0;
+	}
+	.featured-products-wrpper .row {
+		row-gap: 20px;
 	}
 }
