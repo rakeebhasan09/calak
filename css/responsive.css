@@ -46,6 +46,10 @@ Large Screen - Leptop
 	.hero-content p {
 		max-width: 620px;
 	}
+
+	.our-advantages-wrpper .row {
+		row-gap: 30px;
+	}
 }
 
 /*=========================
@@ -106,6 +110,15 @@ Medium Screen - Tablate
 		padding: 35px 0;
 	}
 	.featured-products-wrpper .row {
+		row-gap: 30px;
+	}
+
+	.our-advantages-wrpper {
+		padding: 60px 0;
+		padding-top: 50px;
+	}
+	.our-advantages-wrpper .row {
+		margin-top: 30px;
 		row-gap: 30px;
 	}
 }
@@ -192,5 +205,20 @@ Xtra Small Screen - Small Mobile
 	}
 	.featured-products-wrpper .row {
 		row-gap: 20px;
+	}
+
+	.our-advantages-wrpper {
+		padding: 40px 0;
+		padding-top: 40px;
+	}
+	.our-advantages-wrpper .row {
+		margin-top: 20px;
+		row-gap: 20px;
+	}
+	.section-title h2 {
+		font-size: 33px;
+	}
+	.section-title p {
+		margin-top: 5px;
 	}
 }

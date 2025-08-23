@@ -467,3 +467,94 @@ FEATURED PRODUCTS CSS HERE
 	border: none;
 	border-bottom: 3px solid #ff831d;
 }
+
+/*======================
+OUR ADVANTAGES CSS HERE
+========================*/
+.our-advantages-wrpper {
+	padding: 100px 0;
+	padding-top: 70px;
+}
+
+.section-title h2 {
+	font-size: 45px;
+	text-align: center;
+	font-family: var(--Montserrat);
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.section-title h2 span {
+	color: #668e19;
+}
+
+.section-title p {
+	max-width: 700px;
+	margin: auto;
+	text-align: center;
+	font-family: var(--Montserrat);
+	color: #bcbec0;
+	margin-top: 20px;
+}
+
+.advantage-card {
+	display: flex;
+	flex-direction: column;
+	row-gap: 15px;
+	align-items: center;
+}
+
+.advantage-card div h2,
+.advantage-card div p {
+	text-align: center;
+	font-family: var(--Montserrat);
+}
+
+.advantage-icon-card {
+	width: 150px;
+	height: 150px;
+	margin: auto;
+	border-radius: 50%;
+	background-color: #f1f2f2;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.advantage-card h2 {
+	font-size: 25px;
+}
+
+.advantage-card div p {
+	font-size: 15px;
+	color: #bcbec0;
+	margin-top: 10px;
+}
+
+.our-advantages-wrpper .row {
+	margin-top: 50px;
+}
+
+.our-advantages-wrpper {
+	position: relative;
+}
+
+.top-border,
+.bottom-border {
+	position: absolute;
+	left: 0;
+	width: 100%;
+}
+
+.top-border {
+	top: 0;
+}
+
+.bottom-border {
+	bottom: 0;
+}
+
+.top-border img,
+.bottom-border img {
+	width: 100%;
+}
