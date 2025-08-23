@@ -79,6 +79,10 @@ Large Screen - Leptop
 	.input-form form {
 		padding: 40px 80px 210px 70px;
 	}
+
+	.terms-conditions-wrpper {
+		padding: 50px;
+	}
 }
 
 /*=========================
@@ -193,6 +197,10 @@ Medium Screen - Tablate
 	}
 	.input-form form {
 		padding: 40px 80px 210px 70px;
+	}
+
+	.terms-conditions-wrpper {
+		padding: 50px;
 	}
 }
 
@@ -365,5 +373,11 @@ Xtra Small Screen - Small Mobile
 	}
 	.profile-update-form {
 		padding-bottom: 60px;
+	}
+
+	.terms-conditions-wrpper {
+		border-radius: 10px;
+		padding: 20px;
+		text-align: justify;
 	}
 }

@@ -382,7 +382,8 @@ HERO CSS HERE
 
 .hero-content a,
 .about-desc a,
-.input-form div button {
+.input-form div button,
+.terms-agree-btn button {
 	text-transform: uppercase;
 	color: #000;
 	background: #ffbd1a;
@@ -793,4 +794,45 @@ Profile Update Page Style Here
 .input-form div button {
 	border: none;
 	text-transform: capitalize;
+}
+
+/*==========================
+TERMS CONDITIONS Page Style Here
+==========================*/
+.terms-condition-area {
+	padding: 40px 0;
+}
+
+.terms-conditions-wrpper {
+	border-radius: 15px;
+	padding: 60px 100px;
+	background-color: #f4f4f4;
+}
+
+.terms-update p,
+.terms-desc p {
+	font-family: var(--Montserrat);
+	font-size: 17px;
+	font-weight: 500;
+}
+
+.terms-desc {
+	display: flex;
+	flex-direction: column;
+	row-gap: 20px;
+	padding-top: 10px;
+}
+
+.terms-agree-btn {
+	padding-top: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+.terms-agree-btn button {
+	border: none;
+	padding-left: 70px;
+	padding-right: 70px;
+	border-top: 3px solid #ffbd1a;
+	border-bottom: 3px solid #ff831d;
 }
