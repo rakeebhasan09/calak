@@ -566,4 +566,8 @@ Xtra Small Screen - Small Mobile
 	.swiper-pagination-fraction {
 		bottom: 15px !important;
 	}
+	.about-desc {
+		padding-right: 0;
+		text-align: justify;
+	}
 }
