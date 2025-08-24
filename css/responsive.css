@@ -97,6 +97,10 @@ Large Screen - Leptop
 		flex-direction: column-reverse;
 		row-gap: 50px;
 	}
+
+	.descripton-top-inner .row {
+		row-gap: 30px;
+	}
 }
 
 /*=========================
@@ -232,6 +236,15 @@ Medium Screen - Tablate
 	}
 	.plane-wrpper .row {
 		row-gap: 50px;
+	}
+
+	.descripton-top-inner .row {
+		row-gap: 30px;
+	}
+	.bid-buy-card,
+	.inner-product-img,
+	.product-desc-bidding-history {
+		padding: 30px 20px;
 	}
 }
 
@@ -470,5 +483,30 @@ Xtra Small Screen - Small Mobile
 	}
 	.plane-wrpper .row {
 		row-gap: 30px;
+	}
+
+	.descripton-top-inner {
+		padding: 0 20px 30px 20px;
+	}
+	.auction-id {
+		padding: 12px 45px;
+	}
+	.inner-product-title {
+		font-size: 20px;
+		padding-top: 30px;
+	}
+	.bid-buy-card,
+	.inner-product-img,
+	.product-desc-bidding-history {
+		padding: 30px 20px;
+	}
+	.active-row ul {
+		gap: 10px;
+	}
+	.active-row ul li button {
+		padding: 0 35px;
+	}
+	.descripton-top-inner .row {
+		row-gap: 20px;
 	}
 }
