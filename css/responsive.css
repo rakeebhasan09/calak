@@ -260,6 +260,11 @@ Medium Screen - Tablate
 	.bottom-desc-box h2 {
 		margin-top: 15px;
 	}
+
+	.spin-board-area {
+		padding-bottom: 100px;
+		padding-top: 50px;
+	}
 }
 
 /*===============================
@@ -501,6 +506,7 @@ Xtra Small Screen - Small Mobile
 
 	.descripton-top-inner {
 		padding: 0 20px 30px 20px;
+		overflow: hidden;
 	}
 	.auction-id {
 		padding: 12px 45px;
@@ -541,5 +547,17 @@ Xtra Small Screen - Small Mobile
 	}
 	.full-features {
 		padding-left: 20px;
+	}
+
+	.wheel-container {
+		width: 310px;
+		height: 310px;
+	}
+	.spin-board-area {
+		padding-bottom: 50px;
+		padding-top: 30px;
+	}
+	.wheel {
+		border: 10px solid #0c2e4e;
 	}
 }

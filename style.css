@@ -213,6 +213,7 @@ HEADER CSS HERE
 	color: #000000;
 	text-transform: uppercase;
 	padding: 8px 20px;
+	margin-top: 0;
 }
 
 .header-area {
@@ -1499,4 +1500,105 @@ PRODUCT DESCRIPTION Page Style Here
 	display: flex;
 	flex-direction: column;
 	row-gap: 20px;
+}
+
+.play-win {
+	color: #291d5d;
+	font-family: var(--Montserrat);
+	font-weight: 600;
+	font-size: 18px;
+	padding-top: 20px;
+	padding-left: 70px;
+}
+
+.spin-board-area {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	row-gap: 30px;
+	padding-bottom: 200px;
+}
+
+/* Spinner CSS */
+.wheel-container {
+	position: relative;
+	width: 500px;
+	height: 500px;
+}
+
+.centerd-whit-circle {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.wheel {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	border: 15px solid #0c2e4e;
+
+	/* Smooth rotation */
+	transition: transform 4s cubic-bezier(0.33, 1, 0.68, 1);
+	transform-style: preserve-3d;
+	backface-visibility: hidden;
+	will-change: transform;
+
+	/* New wheel colors */
+	background: conic-gradient(
+		#f84b25 0deg 30deg,
+		#ffbd1a 30deg 60deg,
+		#31236f 60deg 90deg,
+		#00376e 90deg 120deg,
+		#f84b25 120deg 150deg,
+		#ffbd1a 150deg 180deg,
+		#31236f 180deg 210deg,
+		#00376e 210deg 240deg,
+		#f84b25 240deg 270deg,
+		#ffbd1a 270deg 300deg,
+		#31236f 300deg 330deg,
+		#00376e 330deg 360deg
+	);
+	position: relative;
+}
+
+.wheel span {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform-origin: left center;
+	font-size: 14px;
+	font-weight: bold;
+	color: white;
+	white-space: nowrap;
+}
+
+.pointer {
+	position: absolute;
+	top: -5px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 20px;
+	height: 40px;
+	background: #f8b214;
+	z-index: 10;
+	clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+	border-radius: 3px;
+}
+
+button {
+	margin-top: 20px;
+	padding: 10px 70px;
+	font-size: 18px;
+	background: #ffbd1a;
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+	font-weight: 700;
+	border-bottom: 3px solid #ff831d;
 }
