@@ -101,6 +101,10 @@ Large Screen - Leptop
 	.descripton-top-inner .row {
 		row-gap: 30px;
 	}
+
+	.bottom-desc-box {
+		padding-left: 0;
+	}
 }
 
 /*=========================
@@ -245,6 +249,16 @@ Medium Screen - Tablate
 	.inner-product-img,
 	.product-desc-bidding-history {
 		padding: 30px 20px;
+	}
+
+	.descripton-top-inner {
+		padding: 0 30px 30px 30px;
+	}
+	.bottom-desc-box {
+		padding-left: 0;
+	}
+	.bottom-desc-box h2 {
+		margin-top: 15px;
 	}
 }
 
@@ -508,5 +522,24 @@ Xtra Small Screen - Small Mobile
 	}
 	.descripton-top-inner .row {
 		row-gap: 20px;
+	}
+
+	.bottom-desc-box {
+		padding: 20px;
+		padding-left: 0;
+		margin-top: 15px;
+	}
+	.bottom-desc-box h2 {
+		margin-top: 15px;
+		font-size: 17px;
+		padding-left: 20px;
+	}
+	.tab-buttons {
+		display: inline-flex;
+		flex-direction: column;
+		row-gap: 10px;
+	}
+	.full-features {
+		padding-left: 20px;
 	}
 }

@@ -1457,3 +1457,46 @@ PRODUCT DESCRIPTION Page Style Here
 	color: #d5d5d5;
 	border-radius: 10px;
 }
+
+.description-bottom {
+	margin-top: 30px;
+}
+
+.tab-buttons span {
+	display: inline-block;
+	padding: 12px 70px;
+	color: #31236f;
+	font-family: var(--Montserrat);
+	font-weight: 600;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+
+.bottom-desc-box {
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 30px;
+	margin-top: 30px;
+	padding-bottom: 50px;
+}
+
+.bottom-desc-box h2 {
+	color: #281d5b;
+	font-family: var(--Montserrat);
+	font-weight: 600;
+	margin-top: 30px;
+	margin-bottom: 15px;
+	font-size: 23px;
+	padding-left: 34px;
+}
+
+.full-features div p {
+	font-family: var(--Montserrat);
+	font-weight: 600;
+}
+.full-features {
+	padding-left: 34px;
+	display: flex;
+	flex-direction: column;
+	row-gap: 20px;
+}
