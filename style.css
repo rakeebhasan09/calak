@@ -364,7 +364,7 @@ FOOTER CSS HERE
 /*======================
 HERO CSS HERE
 ========================*/
-.hero-area {
+.hero-content {
 	background: url(images/hero-bg-img.png) no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -399,29 +399,21 @@ HERO CSS HERE
 	border-bottom: 3px solid #ff831d;
 }
 
-.dots {
-	position: absolute;
-	bottom: 30px;
-	left: 50%;
-	transform: translateX(-50%);
+span.swiper-pagination-bullet {
+	width: 15px !important;
+	height: 15px !important;
+	background-color: rgba(255, 255, 255, 0.8);
 }
 
-.dots ul {
-	display: flex;
-	align-items: center;
-	gap: 10px;
-}
-
-.dots ul li {
-	width: 20px;
-	height: 20px;
-	border-radius: 50%;
-	background-color: #5b93ce;
-	cursor: pointer;
-}
-
-.dots ul li:first-child {
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 	background-color: #ffffff;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+	bottom: 25px !important;
 }
 
 /*======================

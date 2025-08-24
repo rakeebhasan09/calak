@@ -319,7 +319,7 @@ Xtra Small Screen - Small Mobile
 		padding-right: 0;
 	}
 
-	.hero-area {
+	.hero-content {
 		padding: 65px 0;
 		background-position: left;
 	}
@@ -559,5 +559,11 @@ Xtra Small Screen - Small Mobile
 	}
 	.wheel {
 		border: 10px solid #0c2e4e;
+	}
+	.swiper-horizontal > .swiper-pagination-bullets,
+	.swiper-pagination-bullets.swiper-pagination-horizontal,
+	.swiper-pagination-custom,
+	.swiper-pagination-fraction {
+		bottom: 15px !important;
 	}
 }

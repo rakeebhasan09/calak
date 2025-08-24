@@ -24,6 +24,12 @@
 		<!-- Icon Css Here -->
 		<link rel="stylesheet" href="css/font-awesome.css" />
 
+		<!-- Link Swiper's CSS -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+		/>
+
 		<!-- Main StyleSheet -->
 		<link rel="stylesheet" href="style.css" />
 
@@ -152,28 +158,63 @@
 
 		<!-- HERO AREA START -->
 		<section class="hero-area">
-			<div class="container">
-				<div class="hero-wrpper">
-					<div class="hero-content">
-						<h1>
-							Bid, Win, Save. <br />
-							It's That Simple.
-						</h1>
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing
-							elit. Pariatur ipsum sapiente enim porro expedita
-							aliquid culpa, aperiam quod amet vitae.
-						</p>
-						<a href="#">read more</a>
+			<div class="hero-wrpper">
+				<div class="swiper mySwiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="hero-content">
+								<div class="container">
+									<h1>
+										Bid, Win, Save. <br />
+										It's That Simple.
+									</h1>
+									<p>
+										Lorem ipsum dolor sit amet consectetur
+										adipisicing elit. Pariatur ipsum
+										sapiente enim porro expedita aliquid
+										culpa, aperiam quod amet vitae.
+									</p>
+									<a href="#">read more</a>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="hero-content">
+								<div class="container">
+									<h1>
+										Bid, Win, Save. <br />
+										It's That Simple.
+									</h1>
+									<p>
+										Lorem ipsum dolor sit amet consectetur
+										adipisicing elit. Pariatur ipsum
+										sapiente enim porro expedita aliquid
+										culpa, aperiam quod amet vitae.
+									</p>
+									<a href="#">read more</a>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="hero-content">
+								<div class="container">
+									<h1>
+										Bid, Win, Save. <br />
+										It's That Simple.
+									</h1>
+									<p>
+										Lorem ipsum dolor sit amet consectetur
+										adipisicing elit. Pariatur ipsum
+										sapiente enim porro expedita aliquid
+										culpa, aperiam quod amet vitae.
+									</p>
+									<a href="#">read more</a>
+								</div>
+							</div>
+						</div>
 					</div>
+					<div class="swiper-pagination"></div>
 				</div>
-			</div>
-			<div class="dots">
-				<ul>
-					<li></li>
-					<li></li>
-					<li></li>
-				</ul>
 			</div>
 		</section>
 		<!-- HERO AREA END -->
@@ -636,6 +677,23 @@
 		</footer>
 		<!-- FOOTER AREA END -->
 
+		<!-- Swiper JS -->
+		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+		<!-- Initialize Swiper -->
+		<script>
+			var swiper = new Swiper(".mySwiper", {
+				speed: 1000,
+				autoplay: {
+					delay: 2500,
+					disableOnInteraction: false,
+				},
+				pagination: {
+					el: ".swiper-pagination",
+					clickable: true,
+				},
+				loop: true,
+			});
+		</script>
 		<!-- Main jQuery -->
 		<script src="js/jquery-3.4.1.min.js"></script>
 
