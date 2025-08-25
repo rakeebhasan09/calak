@@ -9,7 +9,7 @@ Extra Large Screen - Others
 		padding-left: 25px;
 	}
 
-	.hero-area {
+	.hero-content {
 		padding: 104px 0;
 	}
 	.hero-content h1 {
@@ -41,7 +41,7 @@ Large Screen - Leptop
 		margin-bottom: 20px;
 	}
 
-	.hero-area {
+	.hero-content {
 		padding: 104px 0;
 	}
 	.hero-content h1 {
@@ -144,7 +144,7 @@ Medium Screen - Tablate
 		justify-content: start !important;
 	}
 
-	.hero-area {
+	.hero-content {
 		padding: 65px 0;
 	}
 	.hero-content h1 {
